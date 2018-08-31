@@ -62,6 +62,10 @@ public class User extends AbstractEntity {
         return false;
     }
 
+    public UserDto toUserDto() {
+        return new UserDto(this.userId, this.passwd, this.name, this.email);
+    }
+
     private static class GuestUser extends User {
         @Override
         public boolean isGuestUser() {

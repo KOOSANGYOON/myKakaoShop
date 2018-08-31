@@ -20,10 +20,10 @@ public class AbstractEntity {
     private long id;
 
     @CreatedDate
-    private LocalDateTime createDate;
+    private LocalDateTime createDate = LocalDateTime.now();
 
     @LastModifiedDate
-    private LocalDateTime modifiedDate;
+    private LocalDateTime modifiedDate = LocalDateTime.now();
 
     public AbstractEntity() {
     }

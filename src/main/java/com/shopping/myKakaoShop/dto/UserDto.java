@@ -16,4 +16,14 @@ public class UserDto {
         this.name = name;
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return "UserDto{" +
+                "userId='" + userId + '\'' +
+                ", passwd='" + passwd + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

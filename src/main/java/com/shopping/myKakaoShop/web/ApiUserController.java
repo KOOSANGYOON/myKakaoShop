@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/users")
 public class ApiUserController {
     private static final Logger log = LoggerFactory.getLogger(ApiUserController.class);
 
@@ -20,7 +21,8 @@ public class ApiUserController {
     private UserService userService;
 
     @PostMapping("/join")
-    public User join(@RequestBody UserDto userDto) {
+    public User join(@Valid @RequestBody UserDto userDto) {
+        log.debug("Join : {}", userDto);
         return userService.join(userDto);
     }
 
@@ -35,4 +37,5 @@ public class ApiUserController {
             throw new IllegalAccessException();
         }
     }
+
 }
