@@ -83,6 +83,7 @@ img { max-width: 100%; }
 
 .inner-bg {
     padding: 100px 0 170px 0;
+	max-width: 1200px;
 }
 
 .top-content .text {
