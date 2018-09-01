@@ -6,6 +6,7 @@ import com.shopping.myKakaoShop.dto.UserDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,15 +21,23 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
+    private User makeUserFromDto(UserDto userDto) {
+        User targetUser = User.from(userDto);
+        return targetUser.setPasswd(passwordEncoder.encode(targetUser.getPasswd()));
+    }
+
     public User join(UserDto userDto) {
         log.debug("user service join in.");
-        User newUser = new User(userDto);
+        User newUser = makeUserFromDto(userDto);
         return userRepository.save(newUser);
     }
 
     public User login(UserDto userDto) throws IllegalAccessException {
         User targetUser = userRepository.findByUserId(userDto.getUserId()).orElseThrow(() -> new NoSuchElementException());
-        if (!targetUser.isCorrect(userDto.getPasswd())) {
+        if (!passwordEncoder.matches(userDto.getPasswd(), targetUser.getPasswd())) {
             throw new IllegalAccessException();
         }
         return targetUser;

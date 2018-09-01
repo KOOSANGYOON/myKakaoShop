@@ -5,6 +5,7 @@ import com.shopping.myKakaoShop.dto.UserDto;
 import com.shopping.myKakaoShop.support.domain.AbstractEntity;
 import lombok.Getter;
 import org.hibernate.validator.constraints.Email;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
@@ -20,7 +21,6 @@ public class User extends AbstractEntity {
     @Column(nullable = false, unique = true)
     private String userId;
 
-    @Size(min = 3, max = 15)
     @Column(nullable = false)
     @JsonIgnore
     private String passwd;
@@ -50,12 +50,6 @@ public class User extends AbstractEntity {
         this.name = name;
         this.email = email;
     }
-    public User(UserDto userDto) {
-        this.userId = userDto.getUserId();
-        this.passwd = userDto.getPasswd();
-        this.name = userDto.getName();
-        this.email = userDto.getEmail();
-    }
 
     @JsonIgnore
     public boolean isGuestUser() {
@@ -73,7 +67,12 @@ public class User extends AbstractEntity {
         }
     }
 
-    public boolean isCorrect(String passwd) {
-        return this.passwd.equals(passwd);
+    public static User from(UserDto userDto) {
+        return new User(userDto.getUserId(), userDto.getPasswd(), userDto.getName(), userDto.getEmail());
+    }
+
+    public User setPasswd(String passwd) {
+        this.passwd = passwd;
+        return this;
     }
 }

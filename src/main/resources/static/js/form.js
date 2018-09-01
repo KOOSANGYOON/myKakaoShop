@@ -25,6 +25,7 @@ function submitJoin(e) {
         location.href = "/";
     }).fail(function joinFail(data) {
         console.log("fail to join..", data);
+        alert("fail to join... check validation.");
     })
 }
 
