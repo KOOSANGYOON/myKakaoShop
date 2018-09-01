@@ -19,38 +19,11 @@ public class AbstractEntity {
     @GeneratedValue
     private long id;
 
-    @CreatedDate
-    private LocalDateTime createDate = LocalDateTime.now();
-
-    @LastModifiedDate
-    private LocalDateTime modifiedDate = LocalDateTime.now();
-
     public AbstractEntity() {
-    }
-
-    public AbstractEntity(long id) {
-        this.id = id;
     }
 
     public long getId() {
         return id;
-    }
-
-    @JsonIgnore
-    public String getFormattedCreateDate() {
-        return getFormattedDate(createDate, "yyyy.MM.dd HH:mm:ss");
-    }
-
-    @JsonIgnore
-    public String getFormattedModifiedDate() {
-        return getFormattedDate(modifiedDate, "yyyy.MM.dd HH:mm:ss");
-    }
-
-    private String getFormattedDate(LocalDateTime dateTime, String format) {
-        if (dateTime == null) {
-            return "";
-        }
-        return dateTime.format(DateTimeFormatter.ofPattern(format));
     }
 
     @Override
@@ -77,6 +50,6 @@ public class AbstractEntity {
 
     @Override
     public String toString() {
-        return "AbstractEntity [id=" + id + ", createDate=" + createDate + ", modifiedDate=" + modifiedDate + "]";
+        return "AbstractEntity [id=" + id + "]";
     }
 }

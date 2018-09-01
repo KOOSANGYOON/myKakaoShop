@@ -16,6 +16,9 @@ public class HomeController {
 
     private static final Logger log = LoggerFactory.getLogger(HomeController.class);
 
+    @Autowired
+    private ItemRepository itemRepository;
+
     @GetMapping("")
     public String home(Model model) {
         log.debug("hihi");
@@ -32,6 +35,13 @@ public class HomeController {
     public String loginForm() {
         log.debug("login form in.");
         return "/user/loginForm";
+    }
+
+    @GetMapping("/shop")
+    public String shopMain(Model model) {
+        log.debug("shop main in.");
+        model.addAttribute("items", itemRepository.findAll());
+        return "/product";
     }
 
 }
