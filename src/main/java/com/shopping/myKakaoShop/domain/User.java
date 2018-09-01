@@ -38,7 +38,7 @@ public class User extends AbstractEntity {
 //    @OneToMany(fetch = FetchType.EAGER)
     private List<Item> boughtItems = new ArrayList<Item>();
 
-    private int mileage = 0;
+    private double mileage = 0.0;
 
     private boolean deleted = false;
 
@@ -73,5 +73,12 @@ public class User extends AbstractEntity {
     public User setPasswd(String passwd) {
         this.passwd = passwd;
         return this;
+    }
+
+    //logic part
+    public void buy(Item item) {
+        this.boughtItems.add(item);
+        double fivePercent = item.getCost() * 0.05;
+        this.mileage += fivePercent;
     }
 }
