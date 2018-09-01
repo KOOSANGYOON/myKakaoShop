@@ -6,6 +6,7 @@ import com.shopping.myKakaoShop.service.UserService;
 import com.shopping.myKakaoShop.support.HttpSessionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -36,6 +37,13 @@ public class ApiUserController {
             e.printStackTrace();
             throw new IllegalAccessException();
         }
+    }
+
+    @PostMapping("/logout")
+    public ResponseEntity<Void> logout(HttpSession session) {
+        session.removeAttribute(HttpSessionUtils.USER_SESSION_KEY);
+        log.debug("log out !");
+        return ResponseEntity.ok().build();
     }
 
 }

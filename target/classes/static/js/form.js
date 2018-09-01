@@ -1,5 +1,26 @@
 $(".join-btn").on("click", submitJoin);
 $(".signIn-btn").on("click", submitSignIn);
+$(".logoutBtn").on("click", logout);
+
+function logout(e) {
+    e.preventDefault();
+    console.log("hihi");
+
+    var url = $(e.target).closest(".logoutForm").attr("action");
+    console.log(url);
+
+    $.ajax({
+        type: 'post',
+        url: url
+    }).done(function joinSuccess() {
+        console.log("success!");
+        location.href = "/";
+    }).fail(function joinFail(data) {
+        console.log("data :" + data);
+        console.log("status :" + status);
+        alert("fail to log out.");
+    })
+}
 
 function submitJoin(e) {
     e.preventDefault();

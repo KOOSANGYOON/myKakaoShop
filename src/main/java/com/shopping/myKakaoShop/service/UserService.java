@@ -26,6 +26,7 @@ public class UserService {
 
     private User makeUserFromDto(UserDto userDto) {
         User targetUser = User.from(userDto);
+        log.debug("test : " + passwordEncoder.encode(userDto.getPasswd()));
         return targetUser.setPasswd(passwordEncoder.encode(targetUser.getPasswd()));
     }
 

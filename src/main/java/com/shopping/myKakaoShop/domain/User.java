@@ -5,7 +5,6 @@ import com.shopping.myKakaoShop.dto.UserDto;
 import com.shopping.myKakaoShop.support.domain.AbstractEntity;
 import lombok.Getter;
 import org.hibernate.validator.constraints.Email;
-import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
