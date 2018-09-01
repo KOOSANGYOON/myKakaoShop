@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
 public class HomeController {
@@ -42,6 +43,13 @@ public class HomeController {
         log.debug("shop main in.");
         model.addAttribute("items", itemRepository.findAll());
         return "/product";
+    }
+
+    @GetMapping("/shop/items/{id}")
+    public String itemDetail(@PathVariable Long id, Model model) {
+        log.debug("item detail in.");
+        model.addAttribute("item", itemRepository.findOne(id));
+        return "/product-detail";
     }
 
 }
