@@ -1,5 +1,11 @@
 ## My Kakao Shop project
 
+- 간단한 사용 설명
+- (https://github.com/KOOSANGYOON/myKakaoShop) git clone 혹은, 압축파일의 압축을 해제한 뒤,
+- MyKakaoShopApplication 을 실행시킨다.
+- 상품관련 파일들은 모두 전체 압축파일 안에 저장되어있다.
+- h2 database 를 사용했다.
+
 ---
 ### 1. 사용 방법 (시나리오)
 
