@@ -8,6 +8,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
+//user class에서 logic이 담겨있는 '구매' 기능에 대한 단위 테스트
 public class UserTest {
 
     private static final Logger log = LoggerFactory.getLogger(UserTest.class);
@@ -28,4 +29,5 @@ public class UserTest {
         assertEquals(newUser.getBuyHistories().size(), 1);       //구매 내역에 잘 담겼는지,
         assertThat(newUser.getMileage(), is(50.0));             //마일리지가 제대로 쌓였는지 확인
     }
+
 }

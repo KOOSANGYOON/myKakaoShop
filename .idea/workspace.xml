@@ -2,95 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f2d927a-cc04-4fef-8490-a462f4baeeb5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Untitled-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bg-banner-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bg-banner-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bg-video-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/blog-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gallery-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-pages-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-pages-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-pages-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-pages-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-pages-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-pages-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icons/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-cart-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-cart-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-cart-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-cart-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-cart-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/item-cart-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/master-slide-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/product-detail-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/product-detail-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/product-detail-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/shop-item-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/thumb-item-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/thumb-item-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/thumb-item-03.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/UserRoleInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product-detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,7 +58,7 @@
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="334">
               <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,71 +67,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuyHistoryRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/repositories/BuyHistoryRepository.java">
+      <file leaf-file-name="ApiItemAcceptanceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
+            <state relative-caret-position="244">
+              <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
               <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/myPage.html">
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="372">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navBar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/navBar.html">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="1032">
+              <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+      <file leaf-file-name="ApiUserAcceptanceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiUserAcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="639" column="11" lean-forward="true" selection-start-line="639" selection-start-column="11" selection-end-line="639" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="48">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,11 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>container</find>
-      <find>inner</find>
-      <find>!!</find>
-      <find>targetUser</find>
-      <find>login</find>
       <find>header-wrapicon1</find>
       <find>hihi</find>
       <find>fa-instagram</find>
@@ -262,7 +157,12 @@
       <find>btn-num-product-up</find>
       <find>user Info</find>
       <find>shopma</find>
+      <find>logo img</find>
       <find>bg-title-page</find>
+      <find>flex-r-m</find>
+      <find>num-product</find>
+      <find>WebMvcConfigurer</find>
+      <find>addInter</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -282,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/dto/UserDto.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/user/loginForm.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/user/joinForm.html" />
         <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/PasswordEncoder.java" />
@@ -314,15 +211,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/exception/UnAuthenticationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/BasicAuthInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/ApiUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/product-detail.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/service/ItemService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/ApiItemController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/support/test/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/BuyHistory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/repositories/BuyHistoryRepository.java" />
@@ -333,6 +225,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/product.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/includes/config.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/product-detail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product-detail.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/UserRoleInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java" />
       </list>
     </option>
   </component>
@@ -410,7 +310,27 @@
               <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
@@ -418,34 +338,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
@@ -454,15 +346,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myKakaoShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myKakaoShop" type="b2602c69:ProjectViewProjectNode" />
@@ -520,6 +403,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="302" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="302" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="302" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="302" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="301" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -548,8 +447,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shopping.myKakaoShop.exception" />
       <recent name="com.shopping.myKakaoShop.support" />
+      <recent name="com.shopping.myKakaoShop.exception" />
       <recent name="com.shopping.myKakaoShop.support.test" />
       <recent name="com.shopping.myKakaoShop.web" />
     </key>
@@ -575,6 +474,29 @@
   <component name="RunManager" selected="Spring Boot.MyKakaoShopApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ApiItemAcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myKakaoShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.myKakaoShop.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shopping.myKakaoShop.web" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.myKakaoShop.web.ApiItemAcceptanceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ApiItemAcceptanceTest.buyItemTest_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myKakaoShop" />
@@ -622,57 +544,11 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ApiUserAcceptanceTest.loginTest_fail_not_correct_passwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myKakaoShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopping.myKakaoShop.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shopping.myKakaoShop.web" />
-      <option name="MAIN_CLASS_NAME" value="com.shopping.myKakaoShop.web.ApiUserAcceptanceTest" />
-      <option name="METHOD_NAME" value="loginTest_fail_not_correct_passwd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ApiUserAcceptanceTest.loginTest_success_check_encodePassword_also" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myKakaoShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopping.myKakaoShop.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shopping.myKakaoShop.web" />
-      <option name="MAIN_CLASS_NAME" value="com.shopping.myKakaoShop.web.ApiUserAcceptanceTest" />
-      <option name="METHOD_NAME" value="loginTest_success_check_encodePassword_also" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserTest.buyTest_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myKakaoShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopping.myKakaoShop.domain.repositories.*" />
+          <option name="PATTERN" value="com.shopping.myKakaoShop.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -680,7 +556,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.shopping.myKakaoShop.domain" />
       <option name="MAIN_CLASS_NAME" value="com.shopping.myKakaoShop.domain.UserTest" />
-      <option name="METHOD_NAME" value="buyTest_success" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserTest.makeUser_fail_not_valid_email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myKakaoShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopping.myKakaoShop.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shopping.myKakaoShop.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.shopping.myKakaoShop.domain.UserTest" />
+      <option name="METHOD_NAME" value="makeUser_fail_not_valid_email" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -735,19 +634,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MyKakaoShopApplication" />
-      <item itemvalue="JUnit.ApiUserAcceptanceTest.loginTest_success_check_encodePassword_also" />
-      <item itemvalue="JUnit.ApiUserAcceptanceTest.loginTest_fail_not_correct_passwd" />
       <item itemvalue="JUnit.ApiUserAcceptanceTest" />
-      <item itemvalue="JUnit.UserTest.buyTest_success" />
+      <item itemvalue="JUnit.UserTest" />
+      <item itemvalue="JUnit.UserTest.makeUser_fail_not_valid_email" />
+      <item itemvalue="JUnit.ApiItemAcceptanceTest" />
       <item itemvalue="JUnit.ApiItemAcceptanceTest.buyItemTest_success" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiItemAcceptanceTest.buyItemTest_success" />
-        <item itemvalue="JUnit.UserTest.buyTest_success" />
+        <item itemvalue="JUnit.ApiItemAcceptanceTest" />
         <item itemvalue="JUnit.ApiUserAcceptanceTest" />
-        <item itemvalue="JUnit.ApiUserAcceptanceTest.loginTest_fail_not_correct_passwd" />
-        <item itemvalue="JUnit.ApiUserAcceptanceTest.loginTest_success_check_encodePassword_also" />
+        <item itemvalue="JUnit.UserTest.makeUser_fail_not_valid_email" />
+        <item itemvalue="JUnit.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -764,44 +663,44 @@
       <workItem from="1535610341474" duration="7644000" />
       <workItem from="1535710881045" duration="30122000" />
       <workItem from="1535791323117" duration="9354000" />
-      <workItem from="1535826034304" duration="24039000" />
+      <workItem from="1535826034304" duration="26991000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 15h 48m 46s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 17m 25s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 16h 17m 51s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 21m 45s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 16h 19m 05s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 25m 26s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 16h 20m 25s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 27m 33s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 16h 53m 56s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 29m 13s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 16h 57m 37s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 31m 32s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 17h 00m 33s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 32m 33s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 17h 03m 11s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 33m 22s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 17h 03m 34s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 34m 46s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 17h 05m 21s.xml">
+    <history-entry file="ApiItemAcceptanceTest_buyItemTest_success - 2018.09.02 at 23h 37m 57s.xml">
       <configuration name="ApiItemAcceptanceTest.buyItemTest_success" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71159000" />
+    <option name="totallyTimeSpent" value="74111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -826,7 +725,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Coverage" sideWeight="0.5020576" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Spring" order="7" />
@@ -848,6 +747,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -856,35 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="100" column="59" lean-forward="true" selection-start-line="100" selection-start-column="59" selection-end-line="100" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret column="22767" selection-start-column="22767" selection-end-column="22767" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/product.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/util.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -930,16 +803,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/fonts/themify/SVG/user.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiUserAcceptanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -973,20 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3280#3281#0" expanded="true" />
-            <element signature="e#3307#3308#0" expanded="true" />
-            <element signature="e#3382#3383#0" expanded="true" />
-            <element signature="e#3409#3410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/repositories/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1001,25 +850,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="172" column="7" lean-forward="true" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1042,23 +872,6 @@
             <element signature="e#1553#1554#0" expanded="true" />
             <element signature="e#1608#1609#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="214" column="28" lean-forward="true" selection-start-line="214" selection-start-column="28" selection-end-line="214" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1117,30 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/dto/ItemDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1218,23 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/LoginUserHandlerMethodArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/repositories/BuyHistoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/ApiItemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1257,9 +1033,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="642" lean-forward="true" selection-start-line="642" selection-end-line="642" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/includes/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="443" column="16" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="933">
+          <caret line="130" column="38" lean-forward="true" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/navBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/includes/contact-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="1716">
           <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1268,31 +1107,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/repositories/BuyHistoryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="91">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="334">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/navBar.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/domain/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiUserAcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/LoginUserHandlerMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/support/UserRoleInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="35" />
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/myKakaoShop/web/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="639" column="11" lean-forward="true" selection-start-line="639" selection-start-column="11" selection-end-line="639" selection-end-column="11" />
+        <state relative-caret-position="312">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#3629#3630#0" expanded="true" />
+            <element signature="e#3656#3657#0" expanded="true" />
+            <element signature="e#3731#3732#0" expanded="true" />
+            <element signature="e#3758#3759#0" expanded="true" />
+            <element signature="e#4006#4007#0" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shopping/myKakaoShop/web/ApiItemAcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

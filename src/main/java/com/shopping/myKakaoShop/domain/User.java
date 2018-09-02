@@ -34,12 +34,6 @@ public class User {
     @Email
     private String email;
 
-//    @ManyToMany(fetch = FetchType.EAGER)
-//    @JoinTable(name = "user_between_item",
-//            joinColumns = @JoinColumn(name = "item_id"),
-//            inverseJoinColumns = @JoinColumn(name = "user_id"))
-//    private List<Item> boughtItems = new ArrayList<Item>();
-
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @OrderBy("id ASC")
     @JsonIgnore
@@ -98,7 +92,6 @@ public class User {
                 ", passwd='" + passwd + '\'' +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
-//                ", buyHistories=" + buyHistories +
                 ", mileage=" + mileage +
                 ", deleted=" + deleted +
                 '}';

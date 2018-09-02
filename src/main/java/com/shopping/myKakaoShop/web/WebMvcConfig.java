@@ -2,6 +2,7 @@ package com.shopping.myKakaoShop.web;
 
 import com.shopping.myKakaoShop.support.BasicAuthInterceptor;
 import com.shopping.myKakaoShop.support.LoginUserHandlerMethodArgumentResolver;
+import com.shopping.myKakaoShop.support.UserRoleInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
@@ -36,6 +37,11 @@ public class WebMvcConfig implements WebMvcConfigurer {
         return new LoginUserHandlerMethodArgumentResolver();
     }
 
+    @Bean
+    public UserRoleInterceptor userRoleInterceptor() {
+        return new UserRoleInterceptor();
+    }
+
     @Override
     public void configurePathMatch(PathMatchConfigurer pathMatchConfigurer) {
 
@@ -63,7 +69,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry interceptorRegistry) {
-
+        interceptorRegistry.addInterceptor(basicAuthInterceptor());
+        interceptorRegistry.addInterceptor(userRoleInterceptor()).addPathPatterns("/api/items", "/api/users");
     }
 
     @Override
