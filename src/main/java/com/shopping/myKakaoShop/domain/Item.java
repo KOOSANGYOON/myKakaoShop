@@ -1,20 +1,19 @@
 package com.shopping.myKakaoShop.domain;
 
 import com.shopping.myKakaoShop.dto.ItemDto;
-import com.shopping.myKakaoShop.support.domain.AbstractEntity;
 import lombok.Getter;
-import org.springframework.web.multipart.MultipartFile;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Lob;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Getter
-public class Item extends AbstractEntity {
+public class Item {
+
+    @Id
+    @GeneratedValue
+    private Long id;
 
     @Column(nullable = false, unique = true)
     private String name;
@@ -39,5 +38,9 @@ public class Item extends AbstractEntity {
 
     public ItemDto toItemDto() {
         return new ItemDto(this.name, this.contents, this.cost, this.images);
+    }
+
+    public Long getItemId() {
+        return this.id;
     }
 }

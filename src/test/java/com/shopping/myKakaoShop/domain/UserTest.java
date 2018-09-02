@@ -12,15 +12,20 @@ public class UserTest {
 
     private static final Logger log = LoggerFactory.getLogger(UserTest.class);
 
+    private BuyHistory makeBuyHistory(User user, Item item) {
+        return new BuyHistory(user, item);
+    }
+
     @Test
     public void buyTest_success() {
         User newUser = new User("koo", "testpw", "구상윤", "testmail@gmail.com");
-        assertEquals(newUser.getBoughtItems().size(), 0);
+        assertEquals(newUser.getBuyHistories().size(), 0);
 
         Item newItem = new Item("ice-cream", "맛있는 아이스크림", 1000, "/testImagePath/test.jpg");
-        newUser.buy(newItem);
+        BuyHistory newBuyHistory = makeBuyHistory(newUser, newItem);
+        newUser.buy(newBuyHistory);
 
-        assertEquals(newUser.getBoughtItems().size(), 1);       //구매 내역에 잘 담겼는지,
+        assertEquals(newUser.getBuyHistories().size(), 1);       //구매 내역에 잘 담겼는지,
         assertThat(newUser.getMileage(), is(50.0));             //마일리지가 제대로 쌓였는지 확인
     }
 }

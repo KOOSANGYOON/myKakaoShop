@@ -2,7 +2,6 @@ package com.shopping.myKakaoShop.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.shopping.myKakaoShop.dto.UserDto;
-import com.shopping.myKakaoShop.support.domain.AbstractEntity;
 import lombok.Getter;
 import org.hibernate.validator.constraints.Email;
 
@@ -13,9 +12,13 @@ import java.util.List;
 
 @Entity
 @Getter
-public class User extends AbstractEntity {
+public class User {
 
     public static final GuestUser GUEST_USER = new GuestUser();
+
+    @Id
+    @GeneratedValue
+    private Long id;
 
     @Column(nullable = false, unique = true)
     private String userId;
@@ -31,11 +34,16 @@ public class User extends AbstractEntity {
     @Email
     private String email;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "user_between_product",
-            joinColumns = @JoinColumn(name = "product_id"),
-            inverseJoinColumns = @JoinColumn(name = "user_id"))
-    private List<Item> boughtItems = new ArrayList<Item>();
+//    @ManyToMany(fetch = FetchType.EAGER)
+//    @JoinTable(name = "user_between_item",
+//            joinColumns = @JoinColumn(name = "item_id"),
+//            inverseJoinColumns = @JoinColumn(name = "user_id"))
+//    private List<Item> boughtItems = new ArrayList<Item>();
+
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OrderBy("id ASC")
+    @JsonIgnore
+    private List<BuyHistory> buyHistories = new ArrayList<>();
 
     private double mileage = 0.0;
 
@@ -75,9 +83,24 @@ public class User extends AbstractEntity {
     }
 
     //logic part
-    public void buy(Item item) {
-        this.boughtItems.add(item);
-        double fivePercent = item.getCost() * 0.05;
+    public User buy(BuyHistory history) {
+        this.buyHistories.add(history);
+        double fivePercent = history.getItem().getCost() * 0.05;
         this.mileage += fivePercent;
+        return this;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userId='" + userId + '\'' +
+                ", passwd='" + passwd + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+//                ", buyHistories=" + buyHistories +
+                ", mileage=" + mileage +
+                ", deleted=" + deleted +
+                '}';
     }
 }

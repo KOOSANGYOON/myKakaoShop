@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>Product</title>
+	{{>header}}
+</head>
+<body class="animsition">
+
+	{{>navBar}}
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/form-elements.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+	<!-- Title Page -->
+	<section class="bg-title-my-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url(/images/myPage.jpg);">
+		<h2 class="l-text2 t-center">
+			My Page
+		</h2>
+		<p class="m-text13 t-center">
+			just only for me
+		</p>
+	</section>
+
+
+	<!-- Content page -->
+	<section class="bgwhite p-t-55 p-b-65">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-8 col-lg-9 p-b-50" style="flex: 100%; max-width: 100%;">
+
+					<!-- User Info -->
+					<div class="row">
+						<div class="form-bottom" style="width: 30%; text-align: center; border-radius: 10px; margin-left: 35%;">
+						<a style="width: 100%; font-size: 30px;">기본 정보</a>
+							<form role="form" class="join-form">
+								<div class="form-group">
+									<label class="sr-only" for="form-userid">UserId</label>
+									<a>user Id : </a>
+									<a type="text" name="userId" class="form-userId form-control" id="form-userid">{{user.userId}}</a>
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="form-username">Username</label>
+									<a>Name : </a>
+									<a type="text" name="name" class="form-username form-control" id="form-username">{{user.name}}</a>
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="form-username">Email</label>
+									<a>e-mail address : </a>
+									<a type="text" name="email" class="form-username form-control" id="form-email">{{user.email}}</a>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="row form-bottom" style="width: 100%; text-align: center; border-radius: 10px; margin-top: 1%">
+						<a style="width: 100%; font-size: 30px; display: inline-block">내가 산 물품 리스트</a>
+						{{#histories}}
+						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+							<!-- Block2 -->
+							<div class="block2">
+								<div class="block2-img wrap-pic-w of-hidden">
+									<img src="{{this.item.mainImagePath}}" alt="IMG-PRODUCT" href="#">
+								</div>
+
+								<div class="block2-txt p-t-20" style="text-align: center">
+									<span class="block2-name dis-block s-text3 p-b-5" style="display: inline-block; width: 100%;">
+										상품 이름 : {{this.item.name}}
+									</span>
+
+									<span class="block2-price m-text6 p-r-5" style="display: inline-block; width: 100%;">
+										가격 : ₩ {{this.item.cost}}
+									</span>
+
+									<span class="block2-price m-text6 p-r-5" style="display: inline-block; width: 100%;">
+										구매 날짜 : {{this.formattedBuyTime}}
+									</span>
+								</div>
+							</div>
+						</div>
+						{{/histories}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	{{>footer}}
+
+
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+	<!-- Container Selection -->
+	<div id="dropDownSelect1"></div>
+	<div id="dropDownSelect2"></div>
+
+
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/select2/select2.min.js"></script>
+	<script type="text/javascript">
+		$(".selection-1").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect2')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="/js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="/vendor/sweetalert/sweetalert.min.js"></script>
+	<script type="text/javascript">
+		$('.block2-btn-addcart').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+
+		$('.block2-btn-addwishlist').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+			});
+		});
+	</script>
+
+<!--===============================================================================================-->
+	<script src="/js/form.js"></script>
+	<script src="/js/main.js"></script>
+
+</body>
+</html>

@@ -1,8 +1,10 @@
 package com.shopping.myKakaoShop.support.test;
 
 import com.shopping.myKakaoShop.domain.User;
-import com.shopping.myKakaoShop.domain.UserRepository;
+import com.shopping.myKakaoShop.domain.repositories.UserRepository;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
@@ -17,6 +19,9 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public abstract class AcceptanceTest {
+
+	private static final Logger log = LoggerFactory.getLogger(AcceptanceTest.class);
+
 	private static final String DEFAULT_LOGIN_USER = "koo";
 	private static final String ANOTHER_LOGIN_USER = "kakao";
 
@@ -35,6 +40,7 @@ public abstract class AcceptanceTest {
 	}
 
 	public TestRestTemplate basicAuthTemplate(User loginUser) {
+		log.debug("user Info : " + loginUser.getUserId() + loginUser.getPasswd());
 		return template.withBasicAuth(loginUser.getUserId(), loginUser.getPasswd());
 	}
 

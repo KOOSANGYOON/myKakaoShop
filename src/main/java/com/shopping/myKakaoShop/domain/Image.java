@@ -1,5 +1,6 @@
 package com.shopping.myKakaoShop.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 
 import javax.persistence.*;
@@ -19,6 +20,7 @@ public class Image {
 
     @ManyToOne
     @JoinColumn(name = "item_id")
+    @JsonIgnore
     private Item item;
 
     public Image() {}

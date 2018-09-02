@@ -2,6 +2,7 @@ package com.shopping.myKakaoShop.web;
 
 import com.shopping.myKakaoShop.domain.User;
 import com.shopping.myKakaoShop.dto.UserDto;
+import com.shopping.myKakaoShop.exception.UnAuthenticationException;
 import com.shopping.myKakaoShop.service.UserService;
 import com.shopping.myKakaoShop.support.HttpSessionUtils;
 import org.slf4j.Logger;
@@ -28,14 +29,14 @@ public class ApiUserController {
     }
 
     @PostMapping("/login")
-    public User login(@RequestBody UserDto userDto, HttpSession session) throws IllegalAccessException {
+    public User login(@RequestBody UserDto userDto, HttpSession session) throws UnAuthenticationException {
         try {
-            User loginUser = userService.login(userDto);
+            User loginUser = userService.login(userDto.getUserId(), userDto.getPasswd());
             session.setAttribute(HttpSessionUtils.USER_SESSION_KEY, loginUser);
             return loginUser;
-        } catch (IllegalAccessException e) {
+        } catch (UnAuthenticationException e) {
             e.printStackTrace();
-            throw new IllegalAccessException();
+            throw new UnAuthenticationException();
         }
     }
 

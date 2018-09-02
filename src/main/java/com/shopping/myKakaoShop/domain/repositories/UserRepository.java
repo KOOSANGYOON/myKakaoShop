@@ -1,5 +1,6 @@
-package com.shopping.myKakaoShop.domain;
+package com.shopping.myKakaoShop.domain.repositories;
 
+import com.shopping.myKakaoShop.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

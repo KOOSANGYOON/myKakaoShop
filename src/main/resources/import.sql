@@ -1,4 +1,4 @@
---INSERT INTO user(id, create_date, modified_date, deleted, email, mileage, name, passwd, user_id) VALUES (1, 201801010830, 201801010830, false, 'koo@naver.com', 0, '구상윤', '$2a$10$a/WCW.09vXNbMzRvRC5AVepdlpKG/1Y/VTqlFw8jbUk6/tsVcGsaW', 'koo');
+INSERT INTO user(id, deleted, email, mileage, name, passwd, user_id) VALUES (1, false, 'koo@naver.com', 0, '구상윤', '$2a$10$a/WCW.09vXNbMzRvRC5AVepdlpKG/1Y/VTqlFw8jbUk6/tsVcGsaW', 'koo');
 
 INSERT INTO item(id, contents, cost, main_image_path, name) values (1, 'sleep clothes for woman', 59900, '/images/productImages/product1.jpg', 'sleep clothes');
 INSERT INTO item(id, contents, cost, main_image_path, name) values (2, 'stylish brick with ryan', 49000, '/images/productImages/product2.jpg', 'castle brick');

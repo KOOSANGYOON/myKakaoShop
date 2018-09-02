@@ -1,7 +1,7 @@
 package com.shopping.myKakaoShop.web;
 
 import com.shopping.myKakaoShop.domain.User;
-import com.shopping.myKakaoShop.domain.UserRepository;
+import com.shopping.myKakaoShop.domain.repositories.UserRepository;
 import com.shopping.myKakaoShop.dto.UserDto;
 import com.shopping.myKakaoShop.support.test.AcceptanceTest;
 import org.junit.Test;
@@ -16,9 +16,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
 
-public class ApiUserControllerTest extends AcceptanceTest {
+public class ApiUserAcceptanceTest extends AcceptanceTest {
 
-    private static final Logger log = LoggerFactory.getLogger(ApiUserControllerTest.class);
+    private static final Logger log = LoggerFactory.getLogger(ApiUserAcceptanceTest.class);
 
     @Autowired
     private TestRestTemplate template;
