@@ -35,7 +35,6 @@ public class User extends AbstractEntity {
     @JoinTable(name = "user_between_product",
             joinColumns = @JoinColumn(name = "product_id"),
             inverseJoinColumns = @JoinColumn(name = "user_id"))
-//    @OneToMany(fetch = FetchType.EAGER)
     private List<Item> boughtItems = new ArrayList<Item>();
 
     private double mileage = 0.0;

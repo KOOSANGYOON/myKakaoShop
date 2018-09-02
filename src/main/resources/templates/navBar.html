@@ -1,0 +1,51 @@
+<!-- Header -->
+<header class="header1">
+    <!-- Header desktop -->
+    <div class="container-menu-header">
+        <div class="wrap_header">
+            <!-- Logo -->
+            <a href="/" class="logo">
+                <img src="/images/icons/logo.png" alt="IMG-LOGO">
+            </a>
+
+            <!-- Menu -->
+            <div class="wrap_menu">
+                <nav class="menu">
+                    <ul class="main_menu">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+
+                        <li class="sale-noti">
+                            <a href="/items">Shop</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Header Icon -->
+            <div class="header-icons">
+
+                {{^loginedUser}}	<!-- non-logined-user -->
+                <a href="/users/join" class="header-wrapicon1 dis-block">
+                    <img src="/images/icons/join.png" class="header-icon1" alt="ICON">
+                </a>
+                <a href="/users/login" class="header-wrapicon1 dis-block">
+                    <img src="/images/icons/login.png" class="header-icon1" alt="ICON">
+                </a>
+                {{/loginedUser}}
+
+                {{#loginedUser}}<!-- logined-user -->
+                <a href="" class="header-wrapicon1 dis-block">
+                    <img src="/images/icons/myInfo.png" class="header-icon1" alt="ICON">
+                </a>
+                <form action="/api/users/logout" method="post" class="logoutForm">
+                    <a class="header-wrapicon1 dis-block logoutBtn">
+                        <img src="/images/icons/logout.png" class="header-icon1" alt="ICON">
+                    </a>
+                </form>
+                {{/loginedUser}}
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,9 +1,6 @@
 package com.shopping.myKakaoShop.web;
 
-import com.shopping.myKakaoShop.domain.ImageRepository;
 import com.shopping.myKakaoShop.domain.ItemRepository;
-import com.shopping.myKakaoShop.service.ItemService;
-import com.shopping.myKakaoShop.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,14 +35,14 @@ public class HomeController {
         return "/user/loginForm";
     }
 
-    @GetMapping("/shop")
+    @GetMapping("/items")
     public String shopMain(Model model) {
         log.debug("shop main in.");
         model.addAttribute("items", itemRepository.findAll());
         return "/product";
     }
 
-    @GetMapping("/shop/items/{id}")
+    @GetMapping("/items/{id}")
     public String itemDetail(@PathVariable Long id, Model model) {
         log.debug("item detail in.");
         model.addAttribute("item", itemRepository.findOne(id));
