@@ -9,6 +9,7 @@ import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Entity
 @Getter
@@ -95,5 +96,26 @@ public class User {
                 ", mileage=" + mileage +
                 ", deleted=" + deleted +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+        User user = (User) o;
+        return Double.compare(user.mileage, mileage) == 0 &&
+                deleted == user.deleted &&
+                Objects.equals(id, user.id) &&
+                Objects.equals(userId, user.userId) &&
+                Objects.equals(passwd, user.passwd) &&
+                Objects.equals(name, user.name) &&
+                Objects.equals(email, user.email) &&
+                Objects.equals(buyHistories, user.buyHistories);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(id, userId, passwd, name, email, buyHistories, mileage, deleted);
     }
 }
